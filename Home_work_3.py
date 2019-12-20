@@ -29,9 +29,14 @@ print(f"{x} + {x+x} - {x+x+x} * {x+x+x+x} = {y}")
 #16 17 18 19 20 21 22
 #23 24 25 26 27 28 29
 #30 31
+#подсказка datetime.datetime.now
 
-year = input("Введите год формате целых чисел")
-month = input("Введите месяц формате целых чисел ")
-print()
-import calendar
-print(calendar.weekheader(2))
+
+#year = input("Введите год формате целых чисел")
+#month = input("Введите месяц формате целых чисел ")
+#print()
+#import calendar
+#print(calendar.weekheader(2))
+
+
+

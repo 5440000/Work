@@ -1,3 +1,7 @@
+
+
+
+
 git commit -m   коммит это описание всех изменений включенных в коммит
 git init
 git checkout branch_name
