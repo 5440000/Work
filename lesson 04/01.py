@@ -6,8 +6,8 @@ import datetime
 date = datetime.datetime(2019, 12, 12)
 now = datetime.datetime.now()
 delta = now - date
-y = (delta.total_seconds())
-m = int(y/60)
-h = int(m/60)
-d = int(h/24)
-print(f"Дней:{d} Часов:{h} Минут:{m}")
+total_seconds = (delta.total_seconds())
+minutes = int(total_seconds/60)
+hours = int(minutes/60)
+days = int(hours/24)
+print(f"Дней:{days} Часов:{hours} Минут:{minutes}")
