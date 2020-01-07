@@ -3,8 +3,8 @@
 
 x = input("Введите число")
 a = int(x)
-b = int(x+x)
-c = int(x+x+x)
-d = int(x+x+x+x)
-y = (a+b-c*d)
-print(f"{x} + {x+x} - {x+x+x} * {x+x+x+x} = {y}")
+b = int(x + x)
+c = int(x + x + x)
+d = int(x + x + x + x)
+y = (a + b - c * d)
+print(f"{x} + {x + x} - {x + x + x} * {x + x + x + x} = {y}")
